@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Golden Girls Fan Club</title>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Poppins" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<h1>The Golden Girls Fan Club</h1>
+
+<body>
+    <img id="the_girls" src="./the-golden-girls-51d375aba9643.png" alt="The Golden Girls Together">
+    <img id="flowers" src="flowerbar.gif" alt="flower bar">
+    <br>
+    <p>Since 1985, the Golden Girls have been making viewers laugh as Sophia, Dorothy, Rose, and Blanche showed us the not-so-ordinary lives of women in their 50s.</br>Here at <span>The Golden Girls Fan Club</span> , we're dedicated to all things Girls -
+        whether it's discussing the horrors of Shady Pines, or joking about Stan's hairpiece. We're always on the lookout for new, exciting Golden Girls news! </br>
+    </p>
+    <h2>Want to join the fun? Sign up for our newsletter!</h2>
+
+    <div id="fillOut">
+        <form action="cgi-bin/formmail.pl" method="post">
+            Name: <input id="name" type="text" name="name"  value="" size="25" maxlength="50" /> Email: <input type="text" name="email" value="" size="25" maxlength="50" />
+            <input id="submit" type="submit" name="submit" value="sign me up!" />
+        </form>
+    </div>
+    <p><span id="signed"></span></p>
+    <p>Some of our favorite moments:</p>
+    <p> The Best Clips From Season One</p>
+    <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/56QTxPf3WqE" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <p>Blanche Being Blanche!</p>
+    <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ItSHd6-6r5M" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <p>Picture It: Sicily 1912...</p>
+    <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/scmvfDGnf_A" frameborder="0" allowfullscreen>
+      </iframe>
+    </div>
+    <p>Thank you for being a friend!</p>
+    <footer>
+        <p id="foot">Some of our friends:</p>
+        <ul>
+            <li><a href="https://fanart.tv/series/71292/the-golden-girls/">GG Fan Art</a>
+                <li><a href="http://www.goldengirlscentral.com/">Golden Girls Central</a>
+                    <li><a href="http://www.avclub.com/article/read-how-golden-girls-nurtured-its-considerable-ga-233407">A.V. Club</a>
+        </ul>
+        <audio id="song" controls autoplay>
+          <source src="http://www.sitcomsonline.com/sounds/thegoldengirls.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <p id="ft_note">Copywrite 2016. Gallagher LLC</p>
+
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+
+</html>

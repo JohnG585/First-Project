@@ -1,0 +1,72 @@
+body {
+  background-color: #82752C;
+}
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    text-align: center;
+    font-size: 700%;
+    color: #D6C24D;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+#the_girls {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+span {
+  font-family: 'Pacifico', cursive;
+  color: #D6C24D;
+}
+#fillOut{
+  text-align: center;
+}
+.videos {
+  text-align: center;
+}
+#flowers {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+#foot {
+  font-family: 'Kaushan Script', cursive;
+  text-align: left;
+}
+ul {
+  text-align: left;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  color: blue;
+  font-weight: bold;
+}
+a:visited {
+  color: red;
+}
+#song {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#ft_note {
+  text-align: right;
+  font-size: 10px;
+}
